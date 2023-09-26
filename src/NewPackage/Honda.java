@@ -31,5 +31,10 @@ public class Honda implements Car {
 		System.out.println("no of tyres : 4");
 		
 	}
+	
+	@Override
+	public void audio() {   // over riding the default method of interface class
+		System.out.println("boat audio");
+	}
 
 }

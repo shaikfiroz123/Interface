@@ -33,6 +33,15 @@ public class Scorpio implements Car{
 	}
 	public void back_door() {
 		System.out.println("yes back door present");
+		
+	
 	}
-
+	
+	@Override
+	public void audio() {  // over riding the default method of interface class
+		System.out.println("zebronics audio");
+	}
+	
 }
+
+
